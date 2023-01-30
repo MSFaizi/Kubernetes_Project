@@ -2,8 +2,9 @@
 
 CI Pipeline Script -
 
+
 node{
-    
+
     stage('Git checkout'){
         git 'https://github.com/MSFaizi/Kubernetes_Project.git'
     }
